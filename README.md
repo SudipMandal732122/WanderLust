@@ -2,6 +2,8 @@
 
 WanderLust is a full-stack web application inspired by Airbnb, designed to provide users with a platform to explore, create, and manage travel listings. The project leverages modern web development technologies and cloud services to deliver a seamless and responsive user experience.
 
+---
+
 ## Technologies Used
 
 ### Backend
@@ -36,14 +38,6 @@ WanderLust is a full-stack web application inspired by Airbnb, designed to provi
 - **Error Handling**: Custom error classes and middleware for handling application errors gracefully.
 - **Validation**: Server-side validation of user inputs using Joi to ensure data integrity.
 
-## Folder Structure
-- **`models`**: MongoDB schemas for `User`, `Listing`, and `Review`.
-- **`routes`**: RESTful API routes for listings, reviews, and user authentication.
-- **`controllers`**: Business logic for handling requests and responses.
-- **`views`**: EJS templates for rendering dynamic pages.
-- **`public`**: Static assets including CSS, JavaScript, and images.
-- **`utils`**: Utility modules for error handling and asynchronous wrapper functions.
-
 ## Key Features
 - User authentication with signup, login, and logout functionality.
 - Create, read, update, and delete (CRUD) operations for travel listings.
@@ -51,6 +45,41 @@ WanderLust is a full-stack web application inspired by Airbnb, designed to provi
 - Interactive maps to display listing locations.
 - Flash messages for user feedback.
 - Responsive design for optimal viewing on all devices.
+
+---
+
+## 🧩 Project Structure
+
+- **`models`**: MongoDB schemas for `User`, `Listing`, and `Review`.
+- **`routes`**: RESTful API routes for listings, reviews, and user authentication.
+- **`controllers`**: Business logic for handling requests and responses.
+- **`views`**: EJS templates for rendering dynamic pages.
+- **`public`**: Static assets including CSS, JavaScript, and images.
+- **`utils`**: Utility modules for error handling and asynchronous wrapper functions.
+
+
+```bash
+📦 WanderLust-Full-Stack-Web-Application
+├── 📁 controllers/
+├── 📁 init/
+├── 📁 models/
+├── 📁 public/
+├── 📁 routes/
+├── 📁 screenshots/
+├── 📁 utils/
+├── 📁 views/
+├── .gitignore
+├── app.js
+├── cloudConfig.js
+├── middleware.js
+├── package-lock.json
+├── package.json
+├── README.md
+└── schema.js
+
+```
+
+---
 
 ## How to Run Locally
 1. Clone the repository.
@@ -67,6 +96,38 @@ SECRET=your_session_secret
 4. Start the application using `node app.js`.
 5. Access the application at `http://localhost:3000`.
 
+---
+
 ## Live Demo
 The application is deployed on Render. You can access it [here](https://wanderlust-ihbn.onrender.com/listings).
 
+---
+
+## 🖼️ Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 📝 Signup Page
+![Signup Page](screenshots/signup.png)
+
+### ✏️ Edit Listing Page
+![Edit Listing Page](screenshots/editlisting.png)
+
+### ➕ Add New Listing Page
+![Add New Listing Page](screenshots/addlisting.png)
+
+### 📋 Listing Details Page
+
+#### 📋 Listing Details
+![Listing Details ](screenshots/listingdetails.png)
+![Listing Details 2](screenshots/listingdetails2.png)
+
+#### ⭐ Listing Review 
+![Listing Review ](screenshots/listingreview.png)
+
+#### 📍 Listing Location 
+![Listing Location ](screenshots/listinglocation.png)
